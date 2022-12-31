@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-family: 'Prosto One', cursive;
+  color: black;
+  font-size: 1.2rem;
+  flex-wrap:wrap
+}
+
+header .left {
+
+}
+header .center {}
+header .right {
+    display: flex;
+    
+}
+
+header a,i{
+    
+    padding: 0.5rem;
+    text-decoration: none;
+    color: rgb(252, 250, 250);
+}
+
+header img {
+    width: 10rem;
+}
+.sepet {
+    position: relative;
+}
+.num {
+    background-color: brown;
+    font-size: 0.4rem;
+    border: 0.1 px solid red;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    position: absolute;
+    left: 1.2rem;
+}
+
+main { 
+    background-color: rgb(216, 216, 231);
+}
+
+main img {
+    margin: 0;
+    padding: 0;
+    width: 33%;
+    height: 20rem;
+}
+main p {
+    padding: 1rem;
+    font-family: 'Righteous', cursive;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgba(4, 4, 4, 0.9);
+    font-family: 'Prosto One', cursive;
+}
+
+footer .cate {
+    display: flex;
+    flex-direction: column;
+   color: aliceblue;
+        
+}
+footer .link {
+    display: flex;
+    flex-direction: column;
+   color: aliceblue;
+   
+}
+footer a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0.5rem 0;
+}
+footer .about,.service {
+   width: 25%;
+   color: aliceblue;
+    
+}
+
+@media (max-width: 950px) {
+     header .left,.right{
+        display: flex;
+        flex-direction: column;
+     }
+    }
+@media (max-width: 800px) {
+     main img{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+     }
+    }
+    @media (max-width: 345px) {
+        header {
+           
+          display: flex;
+          flex-direction: column;
+           
+        }
+        header .left,.center,.right {
+            padding: 1rem;
+        }
+
+        footer .about,.service {
+            display: none;
+        }
+       }
+    
+
