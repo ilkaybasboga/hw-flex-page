@@ -10,7 +10,7 @@ I aimed to create a project Website Page Design.
 ```
 Website Page Design. (folder)
 |
-|----readme.md               
+|----README.md               
 |---- img (images)            
 |----index.html  
 |----style.css   
